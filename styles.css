@@ -1,0 +1,152 @@
+body {
+    font-family: "poppins", sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.hero_area {
+    margin: 20px;
+}
+
+.slider_section .slider_container {
+    color: black;
+    background-color: #f0f4f8;
+    padding: 25px;
+    border-radius: 0 0 15px 15px;
+}
+
+.slider_section .row {
+    display: flex;
+    align-items: center;
+}
+
+.slider_section .img-box {
+    display: flex;
+    justify-content: center;
+    padding: 45px;
+}
+
+.slider_section .img-box img {
+    width: 275px;
+}
+
+.slider_section .detail-box {
+    padding-left: 45px;
+    margin: 45px 0;
+}
+
+.slider_section .detail-box h1 {
+    font-weight: bold;
+    font-size: 3.5rem;
+    margin-bottom: 10px;
+}
+
+.slider_section .detail-box a {
+    display: inline-block;
+    padding: 10px 40px;
+    background-color: #1634e0;
+    color: #ffffff;
+    border: 1px solid #458bdb;
+    border-radius: 5px;
+    transition: all .3s;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+
+.slider_section .detail-box a:hover {
+    background-color: transparent;
+    color: #14dd36;
+}
+
+.about_section {
+    margin: 100px 10px;
+    align-items: center;
+    color: black;
+}
+
+.about_section .text-center {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 100%;
+    max-width: 300px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.text-blue {
+    color: #0000ff;
+}
+
+.text-green {
+    color: #008000;
+}
+
+.text-yellow {
+    color: #ffff00;
+}
+
+.text-purple {
+    color: #800080;
+}
+
+.contact_section {
+    margin: 100px 10px;
+    align-items: center;
+    color: black;
+}
+
+.contact_section .text-center {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.contact_form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input_field {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.submit_button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.submit_button:hover {
+    background-color: #0056b3;
+}
